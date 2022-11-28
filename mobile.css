@@ -1,0 +1,51 @@
+@media only screen and (max-width: 576px) {
+   
+  html {
+    font-size: 85%;
+  }
+
+
+   /*--name work starts here--*/
+ #my-name {
+  height: 65.30rem;
+  padding-top: 22.5rem;   
+}
+#my-name .home-btn {
+  width: 50%;
+}
+#my-name .home-btn a{
+ display: block;
+ margin: .3rem;
+
+
+}
+
+ /*--name work ends here--*/
+
+  /*--about work starts here--*/
+
+#about .about-icon li a{
+    padding: 0 1rem;  
+    font-size: 2rem;
+ 
+  }
+/*--about work ends here--*/
+
+/*--pricing work starts here--*/
+
+/*--pricing work ends here--*/
+
+ /*--contact work starts here--*/
+
+
+.contact-right input:nth-child(1) {
+  width: 100%;
+}
+.contact-right input:nth-child(2) {
+  width:100%;
+  margin-left: 0;
+}
+
+   /*--contact work ends here--*/
+    
+}

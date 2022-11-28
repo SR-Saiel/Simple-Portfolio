@@ -1,0 +1,138 @@
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 90%;
+      }
+    
+
+/*--name work starts here--*/
+
+#my-name {
+
+    height: 50.30rem;
+    padding-top: 22rem;   
+}
+#my-name .name-left {
+    width: 100%;
+}
+#my-name .name-right {
+    display: none;
+}
+/*--name work ends here--*/
+
+/*--about work starts here--*/
+
+#about .about-icon li a{
+    padding: 0 1.4rem;  
+ 
+  }
+/*--about work ends here--*/
+   
+/*--portfolio work starts here--*/
+#portfolio .row {
+    display: block;
+}
+#portfolio .portfolio-left {
+    width: 100%;
+    margin-right: 0;
+}
+#portfolio .portfolio-middle {
+    width: 100%;
+    margin:0;
+}
+#portfolio .portfolio-right {
+    width: 100%;
+    margin-left: 0;   
+}
+#portfolio .protfolio-image img{
+    width: 100%;
+    height: 30rem;
+}
+#portfolio .content-hover {
+     height: 30rem;
+}
+/*--portfolio work ends here--*/
+/*--pricing work starts here--*/
+#pricing .row {
+    display: block;
+}
+#pricing .pricing-left {
+    width: 100%;
+    margin: 0;
+}
+#pricing .pricing-middle {
+    width: 100%;
+    margin:1rem 0;
+}
+#pricing .pricing-right {
+    width: 100%;
+    margin: 0;
+}
+
+/*--pricing work ends here--*/
+
+/*--testimonial work starts here--*/
+
+#testimonial .row:nth-child(2) {
+    display: block;
+   
+}
+#testimonial .testimonial-left {
+    width: 100%;
+    margin-right: 0;
+    margin: .8rem 0;
+}
+#testimonial .testimonial-right {
+    width: 100% ;
+    margin-left: 0;
+}
+/*--testimonial work ends here--*/
+/*--blog work starts here--*/
+#blog .row {
+    display: block;
+}
+
+#blog .blog-left {
+    width: 100%;
+    margin: 0;
+}
+#blog .blog-middle {
+    width: 100%;
+    margin:1rem 0;
+}
+#blog .blog-right {
+    width: 100%;
+    margin: 0;
+}
+/*--blog work ends here--*/
+
+/*--contact work starts here--*/
+#contact .row{
+    display: block;
+}
+#contact .contact-left .row {
+    display: flex;
+}
+#contact .contact-left {
+    width: 100%;
+    text-align: center;
+}
+#contact .contact-right {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+.contact-left .icon {
+    width: 50%;
+    margin-top: .7rem;
+    text-align: right;
+    margin-left: -3rem;
+}
+.contact-left .address {
+    width: 50%;
+    margin-left: 1.5rem;
+    text-align: left;
+}
+/*--contact work ends here--*/
+
+
+}

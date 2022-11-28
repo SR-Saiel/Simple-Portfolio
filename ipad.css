@@ -1,0 +1,135 @@
+@media only screen and (max-width: 992px) {
+
+  html {
+    font-size: 95%;
+  }
+
+ /*--header work starts here--*/
+ #nav-header .row {
+    display: block;
+  } 
+  #nav-header .logo {
+    text-align: center;
+    width: 100%;
+  }  
+  #nav-header .nav {
+    text-align: center;
+    width: 100%;
+  } 
+  #nav-header .nav li {
+    display: block;
+    padding:.2rem 0; 
+    margin: .3rem auto;
+    background-color: rgb(243, 188, 23);
+    opacity: .7;
+    width: 60%;  
+    cursor: pointer;  
+    border-radius: .5rem;
+}
+
+#nav-header .nav li a {
+  opacity: 1  !important;
+
+}
+#nav-header .nav li:hover {
+  background-color: rgb(255, 255, 255);
+}
+#nav-header .nav li a.active {
+  color: rgb(255, 255, 255); 
+
+}
+#nav-header .nav li:hover a {
+  color: rgb(243, 188, 23); 
+}
+
+ /*--header work ends here--*/
+ /*--name work starts here--*/
+ #my-name {
+  background-color: rgb(16, 17, 38);
+  height: 63.30rem;
+  padding-top: 20.5rem;   
+}
+ /*--name work ends here--*/
+
+   /*--about work starts here--*/
+
+#about .row:nth-child(1) {
+    display: block;
+}
+#about .about-left {
+    max-width: 100%;
+    text-align: center;
+}
+#about .about-right {
+  max-width: 100%; 
+ padding-left: 0;
+}
+#about .about-icon li a{
+  padding: 0 2rem;    
+}
+#about .row-edu .row:nth-child(1) {
+  display: block;
+}
+#about  .education-left {
+  width: 100%;
+  margin-right: 0;
+}
+#about .education-right {
+  width: 100%;
+  margin-left: 0;
+}
+
+/*--about work ends here--*/
+
+ /*--service work starts here--*/
+ #service .row-service .row {
+  display: block;
+}
+#service .service-left .row {
+  display: flex;
+}
+#service .service-right .row {
+  display: flex;
+}
+.service-left {
+  width: 100%;
+  margin-right: 0;
+}
+.service-right {
+  width: 100%;
+  margin-left: 0;
+}
+
+ /*--about work ends here--*/
+ /*--pricing work ends here--*/
+
+ /*--pricing work ends here--*/
+  /*--contact work starts here--*/
+
+#contact .contact-left {
+    width: 38%;
+}
+#contact .contact-right {
+    width: 62%;
+    margin-left: 2rem;
+}
+.contact-left .icon {
+  width: 30%;
+  margin-top: .7rem;
+}
+.contact-left .address {
+  width: 70%;
+  margin-left: 1.5rem;
+}
+.contact-right input:nth-child(1) {
+  width: 48.1%;
+}
+.contact-right input:nth-child(2) {
+  width:48.1%;
+  margin-left: 1rem;
+}
+
+   /*--contact work ends here--*/
+    
+    
+}
